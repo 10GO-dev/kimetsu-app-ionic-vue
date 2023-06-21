@@ -1,0 +1,7 @@
+{
+  "name": "teleShow",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
