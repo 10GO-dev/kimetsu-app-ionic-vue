@@ -14,7 +14,7 @@ Aquí tienes algunas capturas de pantalla de la aplicación para que te hagas un
 
 1. Clona este repositorio en tu máquina local.
 ```
-git clone https://github.com/tu_usuario/kimetsu-no-yaiba-fan-app.git](https://github.com/10GO-dev/kimetsu-app-ionic-vue.git
+git clone https://github.com/10GO-dev/kimetsu-app-ionic-vue.git
 ```
 
 2. Navega hasta el directorio del proyecto.
