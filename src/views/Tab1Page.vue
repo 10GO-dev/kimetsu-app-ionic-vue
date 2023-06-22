@@ -7,7 +7,6 @@
             <ion-label class="title">Demon Slayer: (Kimetsu no Yaiba)</ion-label>
           </ion-item-divider>
           <ion-item lines="none">
-
             <swiper :autoplay="{ delay: 2000, disableOnInteraction: false }" :pagination="{ clickable: true }">
               <swiper-slide>
                 <img src="https://sphinxanime.com/wp-content/uploads/2021/04/kimetsunoyaibawallpapersphinxanime.jpg" alt="kimetsu Image" />
@@ -26,15 +25,14 @@
           </ion-item>
           <ion-item lines="none"/>
         </ion-item-group>
-        <ion-router-outlet>
-        </ion-router-outlet>
-          <a class="ion-padding" href="/tabs/tab2"><ion-icon :icon="arrowForward"></ion-icon>  Toca aquí para ver mas info.</a>
+        <router-link to="/tabs/tab2"><ion-icon :icon="arrowForward"></ion-icon>  Toca aquí para ver mas info.</router-link>
     </ion-list>
   </ion-page>
 </template>
 
 <script lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonText, IonLabel,IonItem,IonItemGroup, IonItemDivider, IonList, IonIcon,IonRouterOutlet} from '@ionic/vue';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonText, IonLabel,IonItem,IonItemGroup, IonItemDivider, IonList, IonIcon, } from '@ionic/vue';
+import { RouterLink } from 'vue-router';
 import { defineComponent } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
@@ -64,7 +62,7 @@ export default defineComponent({
     IonItemDivider,
     IonList,
     IonIcon,
-    IonRouterOutlet,
+    RouterLink,
 },
  setup(){
   return { arrowForward}
