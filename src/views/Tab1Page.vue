@@ -1,10 +1,9 @@
 <template>
   <ion-page>
     <ion-list :fullscreen="true">
-    
         <ion-item-group>
           <ion-item-divider>
-            <ion-label class="title">Demon Slayer: (Kimetsu no Yaiba)</ion-label>
+            <ion-label>Demon Slayer: (Kimetsu no Yaiba)</ion-label>
           </ion-item-divider>
           <ion-item lines="none">
             <swiper :autoplay="{ delay: 2000, disableOnInteraction: false }" :pagination="{ clickable: true }">
